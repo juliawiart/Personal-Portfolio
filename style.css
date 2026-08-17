@@ -21,12 +21,18 @@ html{ scroll-behavior:smooth; }
 
 body{
   margin:0;
-  background:var(--bg);
+  background:var(--bg-alt);
   color:var(--ink);
   font-family:'IBM Plex Sans', system-ui, sans-serif;
   font-size:17px;
   line-height:1.65;
   -webkit-font-smoothing:antialiased;
+}
+
+.page-surface{
+  background:var(--bg);
+  max-width:960px;
+  margin:0 auto;
 }
 
 h1,h2,h3{
@@ -346,27 +352,6 @@ a:focus-visible, button:focus-visible{
    its CSS block here AND remove the matching class from the
    HTML element it's attached to in index.html.
    ======================================================== */
-
-/* Accent 1: corner brackets on the photo placeholder */
-.accent-corners{ position:relative; }
-.accent-corners::before,
-.accent-corners::after{
-  content:""; position:absolute; width:22px; height:22px;
-  border-style:solid; border-color:var(--brass); border-width:0;
-}
-.accent-corners::before{ top:-10px; left:-10px; border-top-width:3px; border-left-width:3px; }
-.accent-corners::after{ bottom:-10px; right:-10px; border-bottom-width:3px; border-right-width:3px; }
-
-/* Accent 2: rotated sticker badge near the name */
-.accent-sticker{
-  display:inline-block;
-  font-family:'IBM Plex Mono', monospace;
-  font-size:0.72rem; letter-spacing:0.05em; text-transform:uppercase;
-  color:var(--bg); background:var(--ink-soft);
-  padding:0.3rem 0.7rem; border-radius:4px;
-  transform:rotate(-4deg);
-  margin:0.3rem 0 1rem;
-}
 
 /* Accent 3: highlighter swipe behind part of the heading */
 .accent-highlight{ position:relative; z-index:0; white-space:nowrap; }
