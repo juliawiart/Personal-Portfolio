@@ -238,7 +238,7 @@ a:focus-visible, button:focus-visible{
 }
 .entry ul{ margin:0; padding-left:1.1rem; color:var(--ink-soft); }
 .entry li{ margin-bottom:0.45rem; }
-.entry li::marker{ color:var(--brass); }
+.entry li::marker{ color:var(--ink-soft); }
 
 /* education */
 .edu-course{
