@@ -40,10 +40,7 @@ h1,h2,h3{
   font-weight:600;
   line-height:1.15;
   margin:0;
-  color:var(--bg);
-  background:var(--ink-faint);
-  display:inline-block;
-  padding:0.15em 0.4em;
+  color:var(--ink);
 }
 
 a{ color:var(--accent-strong); }
