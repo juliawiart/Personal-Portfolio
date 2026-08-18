@@ -367,8 +367,8 @@ a:focus-visible, button:focus-visible{
 .quick-link-btn.accent-a:hover{ background:var(--brass); color:var(--bg); }
 .quick-link-btn.accent-b{ border-color:var(--ink-soft); }
 .quick-link-btn.accent-b:hover{ background:var(--ink-soft); color:var(--bg); }
-.quick-link-btn.accent-c{ border-color:var(--bg-alt); }
-.quick-link-btn.accent-c:hover{ background:var(--bg-alt); color:var(--ink); }
+.quick-link-btn.accent-c{ border-color:var(--yay); }
+.quick-link-btn.accent-c:hover{ background:var(--yay); color:var(--bg); }
 
 /* Accent 5: trio of dots flourish under the contact info */
 .accent-dots{ display:flex; gap:0.45rem; align-items:center; margin-top:1.1rem; }
