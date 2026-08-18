@@ -7,10 +7,10 @@
   --accent:#27233A;
   --accent-strong:#27233A;
   --line:#D7E0C4;
-  --brass:#562C2C;
+  --brass:#27233A;
   --radius:2px;
   --max:760px;
-  --yay:#562C2C;
+  --yay:#27233A;
 }
 
 *,*::before,*::after{ box-sizing:border-box; }
