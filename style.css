@@ -10,6 +10,7 @@
   --brass:#4A6C6F;
   --radius:2px;
   --max:760px;
+  --yay:#987D7C
 }
 
 *,*::before,*::after{ box-sizing:border-box; }
