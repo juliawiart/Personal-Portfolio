@@ -10,7 +10,7 @@
   --brass:#4A6C6F;
   --radius:2px;
   --max:760px;
-  --yay:#987D7C
+  --yay:#987D7C;
 }
 
 *,*::before,*::after{ box-sizing:border-box; }
@@ -281,6 +281,8 @@ a:focus-visible, button:focus-visible{
   color:var(--ink-faint);
   background:var(--bg);
 }
+.project-images{ display:flex; gap:1rem; margin-bottom:1.1rem; }
+.project-images .project-image{ margin-bottom:0; flex:1; }
 .project-card h3{ font-size:1.12rem; margin-bottom:0.2rem; }
 .project-meta{
   font-family:'IBM Plex Mono', monospace; font-size:0.76rem;
@@ -337,9 +339,6 @@ a:focus-visible, button:focus-visible{
   color:var(--ink-faint); text-transform:uppercase; letter-spacing:0.06em;
 }
 
-@media (min-width: 640px){
-  .project-grid{ grid-template-columns:1fr 1fr; }
-}
 @media (max-width: 560px){
   .nav{ gap:0.9rem 1rem; }
   .hero{ padding-top:3.2rem; }
