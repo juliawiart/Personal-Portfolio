@@ -294,7 +294,6 @@ a:focus-visible, button:focus-visible{
 
 .project-card.placeholder{
   background:transparent;
-  border:1.5px dashed var(--ink-faint);
   color:var(--ink-faint);
 }
 .placeholder-tag{
